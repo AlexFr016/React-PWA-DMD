@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import logo from './logo.svg'
+//import logo from './logo.svg'
 const About = lazy(() => import('./About'))
 const Home = lazy(() => import('./Home'))
 
@@ -24,9 +24,9 @@ const App: React.FC = () => (
 				</Routes>
 			</Suspense>
 		</Router>
-		<header className='App-header'>
+		{/* <header className='App-header'>
 			<img src={logo} className='App-logo' alt='logo' />
-		</header>
+		</header> */}
 	</>
 )
 
