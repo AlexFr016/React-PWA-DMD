@@ -27,11 +27,8 @@ const App: React.FC = () => (
 		{/* <header className='App-header'>
 			<img src={logo} className='App-logo' alt='logo' />
 		</header> */}
-		<div>
-			Это версия с .env переменной и настройками сервис воркера для
-			своевренменного обновления
-		</div>
-		<div>а вот и обнова пришла 1.0.4</div>
+
+		<div>а вот и обнова пришла 1.0.5</div>
 	</>
 )
 
